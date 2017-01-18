@@ -1,0 +1,18 @@
+var numbers = [2,4,5,7,9,10];
+var newnumber = [];
+
+newnumber= numbers.map(function(number)
+{ return number+2 });
+
+alert(newnumber);
+alert(numbers)
+
+var words = ["What","is","real","life?"];
+var newwords = [];
+
+newwords = words.map(function(word) {
+	return word.toUpperCase();
+});
+
+alert (newwords);
+alert (words);
